@@ -52,8 +52,9 @@ async function findUnusedTypes(introspectionUrl: string) {
   }
 
   const orphans = new Set([...allTypes].filter((x) => !seenTypes.has(x)));
+  const sorted = Array.from(orphans).sort();
   console.log("Orphan types:");
-  console.log(orphans);
+  console.log(sorted);
 }
 
 const program = new Command();
