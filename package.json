@@ -1,6 +1,6 @@
 {
   "name": "graphql-unused-types",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "homepage": "https://github.com/rportugal/graphql-unused-types",
   "repository": "git@github.com:rportugal/graphql-unused-types.git",
